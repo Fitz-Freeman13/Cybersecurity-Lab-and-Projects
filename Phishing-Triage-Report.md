@@ -15,6 +15,6 @@
 * **Suspicious Link Destination:** [hxxps://login.microsoft.com.attacker-domain[.]xyz/secure]
 
 ## 4. Remediation Steps Taken
-1. **Account Auditing:** Because the user clicked the link and entered her username, we initiated a forced sign-out of Sarah's active sessions and checked Azure/Okta identity logs for any successful, anomalous logins from unexpected locations.
-2. **Email Internal Purge:** Searched the Secure Email Gateway (SEG) for all incoming messages containing the sender address or the malicious URL destination to locate and permanently delete matching emails from other employee inboxes.
-3. **Network Perimeter Blocking:** Added the malicious destination URL and its hosting IP address to our corporate firewall and DNS blocklists to prevent any other internal network assets from communicating with the threat actor's site.
+1. **Account Auditing:** [Because the Sarah clicked the link and entered her username, we initiated a forced sign-out of Sarah's active sessions and checked Azure/Okta identity logs for any successful, anomalous logins from unexpected locations.]
+2. **Email Internal Purge:** [Searched the Secure Email Gateway (SEG) for all incoming messages containing the sender address or the malicious URL destination to locate and permanently delete matching emails from other employee inboxes.]
+3. **Network Perimeter Blocking:** [Added the malicious destination URL and its hosting IP address to our corporate firewall and DNS blocklists to prevent any other internal network assets from communicating with the threat actor's site.]
